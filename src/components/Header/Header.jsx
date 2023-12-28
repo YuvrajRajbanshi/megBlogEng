@@ -66,6 +66,16 @@ function Header() {
                                 </button>
                             </li>
                         ) : null)
+
+                    }
+
+
+                    {
+                        authStatus && (
+                            <li>
+                                <LogoutBtn />
+                            </li>
+                        )
                     }
 
                 </ul>
